@@ -1,0 +1,7 @@
+//////  rock paper scissors //////////
+there are three characters named rock paper and scissors 
+rock > scissors > paper >rock
+* user selects a move and computer selects a move 
+* if user selects a rock and computer selects a scissors 
+--- user gains a score 
+* if vise versa than computer gains a score

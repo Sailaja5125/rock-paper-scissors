@@ -1,0 +1,80 @@
+/* rock paper scissors */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+.navbar{
+    background-color: mediumpurple;
+    height: 10vmin;
+    text-align: center;
+    /* line-height: 3rem; line height aligns the text in vertically but doesnt work in media queries */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    font-size: larger;
+    color: bisque;
+}
+.container{
+   height: 25vh;
+   display: flex;
+   justify-content: center;
+   gap: 4vh;
+   margin-top: 35px;
+   align-items: flex-start;    
+}
+.content{
+    background-color: aquamarine;
+    opacity: 0.7;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+.content:hover{
+    border: 3px solid mediumseagreen;
+    opacity: 2;
+    cursor: pointer;
+}
+.score{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    text-align: center
+    /* border: 2px solid black; */
+}
+.footer{
+    height: 20vh;
+    display: flex;
+    justify-content: center
+}
+.msg{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.restart{
+    height: 30px;
+    width: 100px;
+    border: none;
+    background-color: bisque;
+    border-radius: 12px;
+}
+#rock{
+  background-image: url("rock.jpeg");
+  object-fit: cover;
+}
+#paper{
+    background-image: url("paper.jpg");
+    object-fit: cover;
+
+}
+#scissors{
+    background-image: url("scissors.png");
+    object-fit: cover;
+
+}
